@@ -1,3 +1,4 @@
+
 import { motion } from "framer-motion";
 import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
@@ -52,9 +53,9 @@ const Hero = ({ setHeroHeight, onSectionClick }: HeroProps) => {
   return (
     <section 
       ref={ref}
-      className="min-h-[120vh] overflow-hidden relative rounded-b-[100px] bg-primary-light z-50"
+      className="min-h-[120vh] overflow-hidden relative rounded-b-[100px] z-50"
       style={{
-        backgroundImage: `url(${heroBg})`,
+        background: "linear-gradient(135deg, #008080 0%, #00A3A3 100%)",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
@@ -175,7 +176,7 @@ const Hero = ({ setHeroHeight, onSectionClick }: HeroProps) => {
               <img src={illustrationHand} alt="Floating Item 2" className="w-32 h-32" />
             </motion.div> */}
             <img
-              src={heroIllustration} // Add your illustration here
+              src={heroIllustration}
               alt="Startup Illustration"
               className="w-full h-auto max-w-2xl"
               style={{
