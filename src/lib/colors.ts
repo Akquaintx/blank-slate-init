@@ -1,3 +1,4 @@
+
 // Primary: Pale dogwood
 // Secondary: Teal blue
 // Accent: Very light blue/gray
@@ -10,9 +11,7 @@ export const colors = {
     light: "#F8EFE5",
   },
   secondary: {
-    // DEFAULT: "#3C8AAC", // Azure blue
     DEFAULT: "#008080", // Teal blue
-    // light: "#4F9DBF",
     light: "#00A3A3",
   },
   text: {
